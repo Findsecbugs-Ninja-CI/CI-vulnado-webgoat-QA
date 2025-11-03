@@ -8,7 +8,7 @@ pipeline {
         TARGET_JAR   = 'vulnearblesqlapp-0.0.1-SNAPSHOT.jar'
     }
     triggers {
-        cron '15 01 * * 1-7'
+        cron '15 00 * * 1-7'
     }
 
     stages {
